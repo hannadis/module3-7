@@ -48,7 +48,7 @@ function getFood(title, prize) {
   };
 }
 
-var food = getfood("chocolate", "250kr");
+var food = getFood("chocolate", "250kr");
 console.log(food); 
 
 
@@ -82,7 +82,7 @@ sayLocation(Iceland);
 // so it can look like this 
 const sayLocation1 = location => console.log(`my location is ${location1}`);
 
-sayLocation1(Iceland); 
+sayLocation1("Iceland"); 
 
 //but this will only work if I am returning one single thing
 // and I cant have multiple lines of code
